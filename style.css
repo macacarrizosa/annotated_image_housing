@@ -95,29 +95,29 @@ img {
     content: "\f00d";
 }
 
+.dot.purple {
+  background-color: rgba(0, 71, 112, 0.65);
+}
+
+.dot.blue {
+  background-color: rgba(37, 134, 198, 0.65);
+}
+
 .dot.orange {
   background-color: rgba(255, 133, 25, 0.65);
 }
 
-.dot.blue {
-  background-color: rgba(0, 93, 255, 0.65);
-}
-
-.dot.green {
-  background-color: rgba(12, 232, 196, 0.65);
-}
-
-.dot.solar {
-    right: 18%;
-    bottom: 88%;
-}
-
-.dot.camera {
+.dot.small {
     top: 33%;
     left: 12%;
 }
 
-.dot.wheels {
+.dot.large {
+    right: 18%;
+    bottom: 88%;
+}
+
+.dot.medium {
     bottom: 69%;
     right: 49%;
 }
@@ -156,4 +156,15 @@ img {
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
+
+    .dot.medium {
+        bottom: 69%;
+        right: 54%;
+    }
+
+    .dot.large {
+        right: 23%;
+        bottom: 94%;
+    }
+
 }
