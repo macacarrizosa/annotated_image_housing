@@ -87,6 +87,7 @@ img {
     right: 10px;
     text-decoration: none;
     color: #FFF;
+    z-index: 3;
 }
 
 .dot .close:after {
@@ -188,6 +189,7 @@ img {
       right: 10px;
       text-decoration: none;
       color: #FFF;
+      z-index: 3;
   }
 
   .triangle-right .close:after {
